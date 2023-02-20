@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Tri-C Lemonade Stand LLC - Financial Reporting</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link href="resources/normalize.css" rel="stylesheet">
+      <link href="resources/skeleton.css" rel="stylesheet">
+      <link href="project.css" rel="stylesheet">
+      <script src="project.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <header class="mainheader">
+            <h1>
+               <img src="resources/logo.png" height="150"/>
+               &nbsp;&nbsp;
+               Lemonade Stand Financials
+            </h1>
+         </header>
+         <div class="left">
+            <nav>
+               <ul>
+                  <li><a href="project.html">Home</a></li>
+                  <li><a href="https://www.tri-c.edu" target="_blank">Tri-C.edu</a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="maincontent">
+            <p>
+               Welcome to the official financial website for the Tri-C Lemonade Stand, where we are always squeezin' lemons and pinchin' pennies!
+            </p>
+            <ul class="panels">
+               <li>
+                  <h4>Sales by Person</h4>
+                  <p>
+                     Display total Q1 (January, February, and March) sales in dollars by salesperson/campus.
+                  </p>
+                  <button onclick="salesByPerson()">Show Results</button>
+               </li>
+               <li>
+                  <h4>Best and Worst</h4>
+                  <p>
+                     Display the name of the salespeople with the highest and lowest Q1 (January, February, and March) sales. 
+                  </p>
+                  <button onclick="bestAndWorst()">Show Results</button>
+               </li>
+               <li>
+                  <h4>Commissions By Month</h4>
+                  <p>
+                     Display total commissions for Q1 (January, February, and March) for each salesperson by month.
+                  </p>
+                  <button onclick="commissionsByMonth()">Show Results</button>
+               </li>
+            </ul>
+         </div>
+         <footer class="mainfooter">
+            Page layout sourced from <a href="https://gridbyexample.com/examples/page-layout/" target="_blank">Grid By Example</a>.<br/>
+            Find out about Skeleton <a href="http://getskeleton.com/" target="_blank">here</a>.
+         </footer>
+      </div>
+   </body>
+</html>
